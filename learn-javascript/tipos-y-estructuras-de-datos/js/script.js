@@ -11,7 +11,7 @@ let name = "Luciano"; // String
 
 let age = "24"; // Number
 
-let job = false; // Boolean
+let job = true; // Boolean
 
 let varUndefined = undefined;
 
@@ -24,3 +24,9 @@ if(age >= 18){
 console.log(esMayor , "// Imprime una varible declarada con 'var' dentro de un bloque IF"); // Puede imprimir una variable declarada dentro de un bloque IF
 
 
+if(job){
+    const tieneTrabajo = true;
+    console.log(`Tiene trabajo: ${tieneTrabajo}`); // Imprimir la constante en el bloque
+}
+
+console.log(`Tiene trabajo: ${tieneTrabajo}`);
